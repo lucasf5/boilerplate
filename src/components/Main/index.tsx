@@ -10,7 +10,8 @@ import {
 
 const Main = ({
   title = 'Next.js + TypeScript + Styled Components',
-  description = 'A React.js application template including TypeScript and Styled Components.'
+  description = 'A React.js application template including TypeScript and Styled Components.',
+  ReadDesc = 'Read the docs'
 }) => {
   return (
     <Container>
@@ -21,6 +22,7 @@ const Main = ({
         />
         <Title>{title}</Title>
         <Description>{description}</Description>
+        <Description>{ReadDesc}</Description>
         <Illustration
           src="/img/hero.svg"
           alt="Illustration with a developer and a computer"
