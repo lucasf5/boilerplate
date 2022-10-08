@@ -8,7 +8,10 @@ import {
   Title
 } from './styles'
 
-const Main = () => {
+const Main = ({
+  title = 'Next.js + TypeScript + Styled Components',
+  description = 'A React.js application template including TypeScript and Styled Components.'
+}) => {
   return (
     <Container>
       <Content>
@@ -16,11 +19,8 @@ const Main = () => {
           src="/img/iconWithText.svg"
           alt="Logo React with text React Avançado"
         />
-        <Title>Next.js + TypeScript + Styled Components</Title>
-        <Description>
-          A React.js application template including TypeScript and Styled
-          Components.
-        </Description>
+        <Title>{title}</Title>
+        <Description>{description}</Description>
         <Illustration
           src="/img/hero.svg"
           alt="Illustration with a developer and a computer"

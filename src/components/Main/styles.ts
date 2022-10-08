@@ -18,7 +18,10 @@ export const Content = styled.article`
   gap: 2rem;
 `
 export const Logo = styled.img`
-  width: 100%;
+  width: 30rem;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const Title = styled.h1`
@@ -34,7 +37,7 @@ export const Description = styled.h2`
 `
 
 export const Illustration = styled.img`
-  width: 60%;
+  width: 25rem;
 
   @media (max-width: 768px) {
     width: 80%;
