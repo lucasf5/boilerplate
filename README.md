@@ -1,6 +1,6 @@
 ## Getting Started
 
-First, run the development server:
+First, run the boileplate:
 
 ```bash
 yarn create next-app -e https://github.com/lucasf5/boilerplate
